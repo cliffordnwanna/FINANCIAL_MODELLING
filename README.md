@@ -30,6 +30,9 @@ image source : https://eelawcentre.org.za/wp-content/uploads/000_9ew8rr.jpeg
 - [Visualizations and Model Comparison](#visualizations-and-model-comparison)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Contact Information](#Contact-Information)
 
 ---
 
@@ -185,6 +188,34 @@ Summary of model accuracy for RandomForest, Logistic Regression, and SVM.
 - Further optimize hyperparameters to improve model performance.
 - Experiment with advanced techniques for handling class imbalance, such as undersampling or custom loss functions.
 - Explore neural network models for potentially better predictions.
+
+---
+
+## Contributing
+
+We welcome contributions to improve BODYBALANCE.AI. To contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/cliffordnwanna/BODYBALANCE.AI/blob/main/LICENSE) file for details.
+
+---
+
+## Contact Information
+
+For any inquiries or support related to BODYBALANCE.AI, please contact:
+
+**Clifford Nwanna**  
+*Email*: [nwannachumaclifford@gmail.com](mailto:nwannachumaclifford@gmail.com)
+
 
 ---
 
