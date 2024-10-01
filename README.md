@@ -1,6 +1,8 @@
 # PREDICTIVE_MODELLING
 ## Systemic Crisis, Banking Crisis, Inflation Crisis in Africa
 
+https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/crisis%20in%20Africa.jpeg
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset Description](#dataset-description)
@@ -21,13 +23,12 @@
     - [Cross-Validation](#cross-validation)
     - [Handling Class Imbalance](#handling-class-imbalance)
     - [Trying Different Algorithms](#trying-different-algorithms)
-- [Conclusion](#conclusion)
-- [Future Work](#future-work)
 - [How to Run the Project](#how-to-run-the-project)
 - [Real-World Applications](#real-world-applications)
 - [Visualizations and Model Comparison](#visualizations-and-model-comparison)
 - [Screenshots](#screenshots)
-- [Additional Code for Model Improvements](#additional-code-for-model-improvements)
+- [Future Work](#future-work)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -129,20 +130,6 @@ RandomForest outperformed both models in terms of accuracy and handling class im
 
 ---
 
-## Conclusion
-- The RandomForest model achieved a high accuracy of 96.34% and performed well across precision, recall, and F1-score metrics.
-- Class imbalance remains a challenge, but techniques like SMOTE helped improve the model’s ability to detect minority-class instances.
-- The predictive model offers valuable insights for early warning systems and economic policy decisions in African countries.
-
----
-
-## Future Work
-- Further optimize hyperparameters to improve model performance.
-- Experiment with advanced techniques for handling class imbalance, such as undersampling or custom loss functions.
-- Explore neural network models for potentially better predictions.
-
----
-
 ## How to Run the Project
 1. **Clone the repository** and install the required dependencies using `requirements.txt`.
 2. **Download the dataset** from Kaggle.
@@ -161,55 +148,8 @@ RandomForest outperformed both models in terms of accuracy and handling class im
 ---
 
 ## Visualizations and Model Comparison
-
-### Feature Importance Visualization
-This plot helps visualize which features are most important in predicting systemic crises.
-
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-importances = model.feature_importances_
-indices = np.argsort(importances)[::-1]
-
-plt.figure(figsize=(10, 6))
-sns.barplot(y=features.columns[indices], x=importances[indices])
-plt.title("Feature Importance")
-plt.xlabel('Importance Score')
-plt.ylabel('Feature')
-plt.show()
-
-
-
-This bar chart compares the accuracy of different models.
-
-python
-Copy code
-import matplotlib.pyplot as plt
-
-model_names = ['Random Forest', 'Logistic Regression', 'SVM']
-accuracies = [0.9634, 0.9487, 0.9345]
-
-plt.figure(figsize=(8, 5))
-plt.bar(model_names, accuracies, color=['blue', 'green', 'orange'])
-plt.title('Model Comparison: Accuracy Scores')
-plt.ylabel('Accuracy')
-plt.show()
-Confusion Matrix Visualization
-To visualize model performance, confusion matrices can be plotted for each model.
-
-python
-Copy code
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-
-cm = confusion_matrix(y_test, y_pred)
-ConfusionMatrixDisplay(cm).plot()
-plt.title('Confusion Matrix - Random Forest')
-plt.show()
-
-
-### Screenshots
-Pandas Profiling Report:
+### Pandas Profiling Report:
+https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/Profile_Report.png
 Screenshot of summary statistics and missing values.
 
 Feature Importance Plot:
@@ -220,39 +160,21 @@ Visualize classification performance using confusion matrices.
 
 Model Comparison Plot: Summary of model accuracy for RandomForest, Logistic Regression, and SVM.
 
-Additional Code for Model Improvements
-Hyperparameter Tuning
-python
-Copy code
-from sklearn.model_selection import GridSearchCV
 
-param_grid = {
-    'n_estimators': [100, 200, 500],
-    'max_depth': [None, 10, 20, 30],
-    'min_samples_split': [2, 5, 10],
-    'min_samples_leaf': [1, 2, 4]
-}
 
-grid_search = GridSearchCV(RandomForestClassifier(random_state=42), param_grid, cv=5, scoring='accuracy')
-grid_search.fit(X_train, y_train)
+## Conclusion
+- The RandomForest model achieved a high accuracy of 96.34% and performed well across precision, recall, and F1-score metrics.
+- Class imbalance remains a challenge, but techniques like SMOTE helped improve the model’s ability to detect minority-class instances.
+- The predictive model offers valuable insights for early warning systems and economic policy decisions in African countries.This project has real-world implications for policy-making, risk assessment, and economic stability in African countries.
 
-print("Best parameters found: ", grid_search.best_params_)
-Cross-Validation
-python
-Copy code
-from sklearn.model_selection import cross_val_score
+---
 
-cv_scores = cross_val_score(model, X_train, y_train, cv=5, scoring='accuracy')
-print(f"Cross-Validation Scores: {cv_scores}")
-print(f"Mean Cross-Validation Accuracy: {np.mean(cv_scores)}")
-Conclusion
-The RandomForest model demonstrates strong predictive performance with a 96.34% accuracy. Future enhancements could include more advanced techniques for handling class imbalance and exploring neural network models to improve predictions. This project has real-world implications for policy-making, risk assessment, and economic stability in African countries.
+## Future Work
+- Further optimize hyperparameters to improve model performance.
+- Experiment with advanced techniques for handling class imbalance, such as undersampling or custom loss functions.
+- Explore neural network models for potentially better predictions.
 
-css
-Copy code
-
-This version is organized, formatted, and includes the necessary code snippets and instructions for anyone to understand and run your project.
-
+---
 
 
 
