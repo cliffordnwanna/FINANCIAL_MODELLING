@@ -1,7 +1,7 @@
 # PREDICTIVE_MODELLING
 ## Systemic Crisis, Banking Crisis, Inflation Crisis in Africa
 
-https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/crisis%20in%20Africa.jpeg
+![crisis in Afrca](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/crisis%20in%20Africa.jpeg)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -26,9 +26,8 @@ https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/crisis%20
 - [How to Run the Project](#how-to-run-the-project)
 - [Real-World Applications](#real-world-applications)
 - [Visualizations and Model Comparison](#visualizations-and-model-comparison)
-- [Screenshots](#screenshots)
-- [Future Work](#future-work)
 - [Conclusion](#conclusion)
+- [Future Work](#future-work)
 
 ---
 
@@ -149,19 +148,19 @@ RandomForest outperformed both models in terms of accuracy and handling class im
 
 ## Visualizations and Model Comparison
 ### Pandas Profiling Report:
-https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/Profile_Report.png
-Screenshot of summary statistics and missing values.
+![Profile report](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/Profile_Report.png)
+Screenshot of summary statistics.
 
 ### Feature Importance Plot:
-https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/feature%20importance.png
+![feature importance](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/feature%20importance.png)
 Screenshot showing the most relevant features for prediction.
 
 ### Confusion Matrix:
-https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/confusion%20matrix.png
+![confusion matrix](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/confusion%20matrix.png)
 Visualize classification performance using confusion matrices.
 
 ### Model Comparison Plot: 
-https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/model_comparison.png
+![model comparison](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/model_comparison.png)
 Summary of model accuracy for RandomForest, Logistic Regression, and SVM.
 
 
