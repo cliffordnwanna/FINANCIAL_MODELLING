@@ -2,6 +2,7 @@
 ## Systemic Crisis, Banking Crisis, Inflation Crisis in Africa
 
 ![crisis in Afrca](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/crisis%20in%20Africa.jpeg)
+image source : https://eelawcentre.org.za/wp-content/uploads/000_9ew8rr.jpeg
 
 ## Table of Contents
 - [Project Overview](#project-overview)
