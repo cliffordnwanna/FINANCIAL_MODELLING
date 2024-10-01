@@ -149,18 +149,25 @@ RandomForest outperformed both models in terms of accuracy and handling class im
 ## Visualizations and Model Comparison
 ### Pandas Profiling Report:
 ![Profile report](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/Profile_Report.png)
+
 Screenshot of summary statistics.
+
 
 ### Feature Importance Plot:
 ![feature importance](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/feature%20importance.png)
+
 Screenshot showing the most relevant features for prediction.
+
 
 ### Confusion Matrix:
 ![confusion matrix](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/confusion%20matrix.png)
+
 Visualize classification performance using confusion matrices.
+
 
 ### Model Comparison Plot: 
 ![model comparison](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/model_comparison.png)
+
 Summary of model accuracy for RandomForest, Logistic Regression, and SVM.
 
 
