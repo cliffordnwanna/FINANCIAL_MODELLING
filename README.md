@@ -1,4 +1,4 @@
-# PREDICTIVE_MODELLING
+# FINANCIAL MODELLING
 ## Systemic Crisis, Banking Crisis, Inflation Crisis in Africa
 
 ![crisis in Afrca](https://github.com/cliffordnwanna/PREDICTIVE_MODELLING/raw/main/IMAGES/crisis%20in%20Africa.jpeg)
